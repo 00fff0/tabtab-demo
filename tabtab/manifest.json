@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "五十音学习 - Gojūon Learn",
+  "version": "1.0.0",
+  "description": "在新标签页学习日语五十音，支持自定义词库和每日刷新",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
